@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/0d3c2b7c49.js" crossorigin="anonymous"></script>    
+    
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+
+  <body>
+    <div class="container">
+      
+      <div class="textos">
+        <h1 class="titulo">Learn to code by watching others</h1>
+
+        <h2 class="subtitulo">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </h2>
+
+      </div>
+
+      <div class="box-container">
+        <button type="submit" class="button-top"> <b>Try it free 7 days</b> then $20/mo. thereafter</button>
+        
+        <form id="form">
+          
+          <input id="first-name" class="inputbox" type="text" placeholder="First Name"/>
+          <div id="exclamation-first" class="fa-solid fa-lg" ></div>
+
+          <small id="small-first" class="small-first">First Name cannot be empty</small>
+
+          <input id="last-name" class="inputbox" type="text" placeholder="Last Name" />
+          <div id="exclamation-last" class="fa-solid fa-lg"></div>
+
+          <small id="small-last">Last Name cannot be empty</small>
+          
+          <input id="email" class="inputbox" type="email" placeholder="Email Address"/>
+          <div id="exclamation-email" class="fa-solid fa-lg"></div>
+          <small id="small-email">Looks like this is not an email</small>
+
+          <div id="email-msg">email@example.com</div> 
+          
+          <input id="password" class="inputbox" type="password" placeholder="Password" />
+          <div id="exclamation-password" class="fa-solid fa-lg"></div>
+          <small id="small-password">Password cannot be empty</small>
+      
+          <button type="submit" href="#" class="button-botton"> CLAIM YOUR FREE TRIAL </button>
+
+          <p class="terms"> By clicking the button, you are agreeing to our
+            <a id="term" href="#"> <b>Terms and Services</b> </a>
+          </p>        
+
+      </form>
+    </div>
+
+    
+    <script src="script.js"></script>
+
+  </body>
+</html>
+
+
